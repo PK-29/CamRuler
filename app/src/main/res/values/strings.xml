@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CamRuler</string>
+    <string name="input_hint">Reference length and unit</string>
+    <string name="input_hint_units">Output unit</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="error_numberFormat">Please enter a decimal number</string>
+    <string name="btn_takePicture">Take Picture</string>
+    <string name="action_choosePhoto">Choose existing photo</string>
+    <string name="storageDeleted">Photos deleted</string>
+    <string name="action_cleanStorage">Delete stored photos</string>
+</resources>

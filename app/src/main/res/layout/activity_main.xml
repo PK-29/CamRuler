@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.prince.camruler.MainActivity">
+
+    <Button
+        android:id="@+id/start"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/about"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/mybutton"
+        android:text="Start"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/start"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/mybutton"
+        android:text="About"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginTop="88dp"
+        android:font="@font/h"
+
+        android:fontFamily="@font/h"
+        android:text="CamRuler"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/about"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@drawable/logoproper" />
+
+    <ImageView
+        android:id="@+id/ruler"
+        android:layout_width="9000dp"
+        android:layout_height="900dp"
+
+        android:scaleX="-1"
+        android:layout_marginLeft="-310dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        app:srcCompat="@drawable/ruler" />
+
+
+</RelativeLayout>

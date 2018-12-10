@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="27dp"
+        android:text="About"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/about"
+        android:layout_marginTop="17dp"
+        android:gravity="fill_horizontal"
+        android:text="This application can be used to calculate the measurements of an object. To use this application, follow these steps: \n \n
+
+1. Take a picture of the objects to be measured and a reference object. \n \n
+
+2. Select both the objects by drawing dots on the two ends. Yellow line represents reference object and red line represents the actual object. \n \n
+
+3. Enter in the measurements of the reference object. \n \n
+
+4. Click done and the measurements will be displayed to you! \n \n \n \n \n \n \n \n
+
+
+
+
+
+
+
+
+Created by: Prince Kowser" />
+
+</RelativeLayout>

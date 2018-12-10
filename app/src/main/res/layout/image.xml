@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/takePicture"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:text="Take a Picture"
+        android:textColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="480dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/object1Text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/object1Text"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:text="2. Draw dots on Reference Object and then press OK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mybutton"
+        android:text="OK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/ruler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_above="@+id/takePicture"
+        android:paddingRight="-250dp"
+
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:rotation="90"
+        android:scaleX="-1"
+        android:scaleY="1.8"
+        app:srcCompat="@drawable/ruler" />
+    <ImageView
+        android:id="@+id/ruler2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_above="@+id/takePicture"
+        android:paddingRight="-252dp"
+
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:rotation="90"
+        android:scaleX="1"
+        android:scaleY="1.8"
+        app:srcCompat="@drawable/ruler" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mybutton"
+        android:text="Clear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/object1Text"
+        android:layout_width="480dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/clear"
+        android:layout_toRightOf="@+id/clear"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:text="3. Draw dots on first object and then press OK"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/objects2Text"
+        android:layout_width="480dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:text="4. Draw dots on the second object and then press OK"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
